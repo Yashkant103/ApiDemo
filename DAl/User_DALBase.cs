@@ -46,7 +46,7 @@ namespace ApiDemo.DAl
                 {
                     while (dr.Read())
                     {
-                        userModel.User_ID = Convert.ToInt32(dr["User_ID"].ToString());
+                        userModel.User_ID = Convert.ToInt32(dr["User_ID"]);
                         userModel.Name = dr["Name"].ToString();
                         userModel.Contact = dr["Contact"].ToString();
                         userModel.Email = dr["Email"].ToString();

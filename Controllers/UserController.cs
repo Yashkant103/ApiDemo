@@ -85,7 +85,7 @@ namespace ApiDemo.Controllers
             else
             {
                 response.Add("status", false);
-                response.Add("message", "Data not Found.");
+                response.Add("message", "Data not Inserted.");
                 return NotFound(response);
             }
         }
